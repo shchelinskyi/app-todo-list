@@ -1,0 +1,34 @@
+.container {
+  padding: 20px;
+  border: 2px solid #29A19C;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.informBlock {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.allTaskBlock {
+    border-radius: 50%;
+    border:10px solid #29A19C;
+    color:#29A19C;
+  }
+
+  &.activeTaskBlock {
+    border-radius: 50%;
+    border:10px solid #e0b911;
+    color:#e0b911;
+  }
+
+  &.doneTaskBlock {
+    border-radius: 50%;
+    border:10px solid #dc3a4f;
+    color:#dc3a4f;
+  }
+
+}
