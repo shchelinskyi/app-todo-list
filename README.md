@@ -1,27 +1,60 @@
-# React + TypeScript + Vite
+#  App todo list
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Це простий додаток "Список справ" допомагає вам ефективно організовувати свої завдання.
 
-Currently, two official plugins are available:
+## Опис
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Інтуїтивний інтерфейс: Додаток має простий дизайн, що дозволяє користувачам легко додавати, редагувати та видаляти завдання.
 
-## Expanding the ESLint configuration
+Управління завданнями: Організовуйте свої завдання легко. Позначте виконані завдання.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Сумісність з різними платформами: Отримуйте доступ до своїх завдань з будь-якого місця. 
 
-- Configure the top-level `parserOptions` property like this:
+## Як користуватися
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+1. Встановлення:
+Склонуйте репозиторій на свій локальний комп'ютер.
+Встановіть залежності за допомогою:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### `npm install`
+(або вашого обраного менеджера пакетів).
+
+2. Запуск додатка в режимі розробника:
+
+### `npm run dev`
+
+3. Відкрийте свій браузер і перейдіть за адресою:
+
+### http://localhost:5173/app-todo-list/
+
+4. Взаємодія з додатком:
+   * Додавання завдань:
+   Натисніть на кнопку '+ Додати завдання', щоб додати нове завдання.
+   Введіть деталі завдання та натисніть 'Додати завдання'.
+   
+   * Редагування завдань:
+   Натисніть на олівець, щоб відредагувати його деталі.
+   Оновіть інформацію та натисніть 'Внести зміни'.
+
+   * Позначення завдань як виконані:
+   Оберіть статус "виконане", щоб позначити його як виконання.
+   Виконані завдання візуально виділяються для зручного посилання.
+
+   * Видалення завдань:
+   Щоб видалити завдання, натисніть значок корзини.
+
+## Використані технології
+
+* Vite
+* TypeScript
+* React.js
+* react-bootstrap
+* Formik
+* Yup
+* Redux
+
+## Page link
+
+https://shchelinskyi.github.io/app-todo-list/
+
+Щасливого управління завданнями 🚀
